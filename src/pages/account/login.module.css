@@ -1,0 +1,53 @@
+.backToHome{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    background: #3493FF;
+    color: white;
+    width: 40px;
+    height: 40px;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+a{
+   margin-top: 6px;
+}
+
+.loginInfo{
+    margin: 170px auto;
+    width: 400px;
+    height: auto;
+    border: 1px solid #3493FF;
+    background-color: #fff;
+    box-shadow: var(--shadow);
+    padding: 30px 20px 20px 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.btnLoginInfo{
+    width: 100%;
+    padding: 5px;
+    border-radius: 12px;
+    border: none;
+    color: #fff;
+    background: #3493FF;
+    font-family: 'vazir';
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.loginInfo span{
+    font-size: 15px;
+    color: #3493FF;
+    cursor: pointer;
+}

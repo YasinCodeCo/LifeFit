@@ -1,0 +1,51 @@
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.item:first-child {
+  height: 300px;
+  width: 100%;
+}
+.item {
+  width: calc(50% - 20px);
+  height: 300px;
+  box-shadow: var(--box-shadow);
+  border-radius: 15px;
+  transition: var(--tran-5);
+  position: relative;
+}
+/* .item:hover{
+
+} */
+.item img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  height: 100%;
+}
+.viedoTitle {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding: 12px 0;
+  background-color: rgba(0, 0, 0, 0.512);
+  border-radius: 0 0 15px 15px;
+}
+.btnPlay {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.86);
+  right: 50%;
+  transform: translateX(50%);
+  cursor: pointer;
+  top: calc(120px);
+}
+
+@media screen and (max-width: 600px) {
+  .item {
+    width: 100%;
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "course_sport": {
+        "status": true,
+        "message": "success",
+        "data": [
+            {
+            "id": 1,
+            "CS_name": "کراسفیت",
+            "CS_imge": "https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+            },
+            {
+            "id": 2,
+            "CS_name": "فیتنس",
+            "CS_imge": "https://images.unsplash.com/photo-1434754205268-ad3b5f549b11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=874&q=80"
+            },
+            {
+            "id": 3,
+            "CS_name": "یوگا",
+            "CS_imge": "https://i.pinimg.com/564x/de/7d/13/de7d13a5573a4902786bea8fffe2ecec.jpg"
+            },
+            {
+            "id": 4,
+            "CS_name": "شنا",
+            "CS_imge": "https://i.pinimg.com/564x/e7/64/10/e76410fe8fd575de0a19be0c95f28284.jpg"
+            },
+            {
+            "id": 5,
+            "CS_name": "ارنولد کلاسیک",
+            "CS_imge": "https://i.pinimg.com/564x/07/3b/00/073b000c1431533b6394341f71dc5bdb.jpg"
+            },
+            {
+            "id": 6,
+            "CS_name": "بیلدینگ",
+            "CS_imge": "https://i.pinimg.com/564x/8d/3c/ab/8d3cabb5970a71e2660e5e89e7145b89.jpg"
+            }
+        ]
+        }
+}

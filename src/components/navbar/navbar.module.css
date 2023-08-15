@@ -1,0 +1,112 @@
+
+@font-face {
+    font-family: 'fontAll';
+    src: local('vazir'),url("../../assets/fonts/vazir.ttf") format("ttf");
+}
+/* ------------------------------------------- */
+.container{
+    margin: 25px 150px 25px 150px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding:0 30px ;
+    box-shadow: var(--box-shadow);
+    border-radius: 30px;
+    background-color: #FFF;
+    transition: var(--tran-5);
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    transition: var(--tran-3);
+}
+.navbarItem{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.navbarItem li{
+    margin-right: 20px;
+    font-size: 16px;
+    position: relative;
+}
+.navbarItem li a{
+    color: var(--color-menue);
+    font-weight: 500;
+    transition: var(--tran-3);
+}
+.activMenu{
+    color: #3493ff !important;
+
+}
+.navbarItem li a::before{
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    width: 0;
+    height: 2px;
+    background-color: #3493ff;
+    transition: var(--tran-5);
+
+}
+.navbarItem li a::after{
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    right: 0px;
+    width: 0;
+    height: 2px;
+    background-color: #3493ff;
+    transition: var(--tran-5);
+}
+.navbarItem li:hover a::after{
+  width: 50%;
+}
+.navbarItem li:hover a::before{
+    width: 50%;
+  }
+.avatar{
+    width: 40px;
+    height: 40px;
+    display: block;
+    color: var(--color-menue);
+    cursor: pointer;
+    transition: var(--tran-4);
+}
+.avatar:hover{
+    transform: scale(1.1);
+}
+.menuIcone{
+    color: var(--color-menue);
+    display: none;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transition: var(--tran-3);
+
+}
+/* ------------------------------------------------ */
+@media screen and (max-width: 900px) {
+    .avatar,.navbarItem{
+        display: none;
+    }
+    .menuIcone{
+        display: block;
+    }
+    .navbar{
+        justify-content:first baseline;
+    }
+    .container{
+        margin: 25px 50px 25px 50px;
+    }
+}
+@media screen and (max-width: 600px){
+    .container{
+        margin: 25px;
+    }
+}
